@@ -1,0 +1,12 @@
+:root{
+    --background-theme: #0F0F0F;
+}
+
+body {
+    background: var(--background-theme);
+}
+
+.youtube-logo{
+    height: 20px;
+    width: 90px;
+}
