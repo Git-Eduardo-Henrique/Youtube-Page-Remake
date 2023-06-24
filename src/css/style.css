@@ -6,7 +6,28 @@ body {
     background: var(--background-theme);
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .youtube-logo{
     height: 20px;
     width: 90px;
+}
+
+.search-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    height: 64px;
 }
