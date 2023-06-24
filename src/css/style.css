@@ -13,6 +13,11 @@ footer{
     align-items: center;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+}
+
 .youtube-logo{
     height: 20px;
     width: 90px;
@@ -28,6 +33,14 @@ footer{
     flex-direction: column;
 }
 
-.buttons{
+.buttons-link{
+    display: flex;
+    flex-direction: column;
+
+    height: 80px;
+    width: 80px;
+}
+
+.buttons-img{
     height: 64px;
 }
