@@ -11,6 +11,9 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    height: 56px;
+    padding: 0 16;
 }
 
 main{
@@ -26,6 +29,14 @@ main{
 .search-div{
     display: flex;
     flex-direction: row;
+}
+
+.search-bar-div{
+    
+}
+
+.search-bar-input{
+    background: #121212;
 }
 
 .buttons-bar{
